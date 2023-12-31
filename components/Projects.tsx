@@ -11,7 +11,7 @@ const Projects = (props: Props) => {
       </h1>
       <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] w-[80%] pt-[2rem]">
         {/* project 1 */}
-        <div>
+        <div data-aos="fade-up">
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
               src="/images/p2.jpg"
@@ -22,7 +22,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/* project 2 */}
-        <div>
+        <div data-aos="fade-up" data-ios-delay="300">
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
               src="/images/p3.jpg"
@@ -33,7 +33,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/* project 3 */}
-        <div>
+        <div data-aos="fade-up" data-ios-delay="600">
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
               src="/images/p1.jpg"

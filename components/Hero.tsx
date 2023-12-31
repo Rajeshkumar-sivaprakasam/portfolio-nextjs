@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-white font-bold text-[35px] md:text-[50px]">
-            HI, I'M &nbsp;
+            HI, I'M &apos;
             <span className="text-yellow-300">Rajeshkumar Sivaprakasam</span>
           </h1>
           <TextEffect />
@@ -40,7 +40,10 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6b5] relative lg:flex items-center rounded-full h-[500px]">
+        <div
+          data-aos="zoom-in"
+          className="w-[500px] hidden bg-[#55e6b5] relative lg:flex items-center rounded-full h-[500px]"
+        >
           <Image
             src="/images/u1.jpg"
             alt="user"
