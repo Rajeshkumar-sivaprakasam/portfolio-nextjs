@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-white font-bold text-[35px] md:text-[50px]">
-            HI, I'M &apos;
+            HI, I&apos;M &nbsp;
             <span className="text-yellow-300">Rajeshkumar Sivaprakasam</span>
           </h1>
           <TextEffect />
@@ -21,8 +21,8 @@ const Hero = () => {
             React.js. My proficiency extends to crafting robust backend systems
             with MongoDB, Express, and Node.js, enabling the creation of
             scalable and dynamic full-stack applications. I specialize in
-            leveraging the MERN stack's capabilities to deliver efficient and
-            user-centric solutions.
+            leveraging the MERN stack&apos;s capabilities to deliver efficient
+            and user-centric solutions
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <button

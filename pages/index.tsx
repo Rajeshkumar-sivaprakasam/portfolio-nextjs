@@ -7,10 +7,10 @@ import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
-import Footer from "@/components/footer";
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import Footer from "@/components/Footer";
 const HomePage = () => {
   const [nav, setNav] = useState(false);
   const openNav = () => {
